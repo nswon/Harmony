@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+
+.TestImg01 {
+  padding-top: 1000px;
+  width: 500px;
+  height: 350px;
+  overflow: hidden;
+}
+
+.gallery>a:hover img {
+  filter: brightness(70%);
+}
