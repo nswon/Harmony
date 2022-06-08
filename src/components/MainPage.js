@@ -1,13 +1,14 @@
 import { render } from '@testing-library/react';
 import React from 'react'
-import { Fade } from 'react-reveal';
+import { Fade, Zoom } from 'react-reveal';
 
 export default function Test01() {
 
         return (
-            <div className='gallery'>
+            <div className='bg'>
                 <Fade left>
-                    <img className='TestImg01' src="./img/t01.png"/>
+                    <img className='img01' src='./img/img01.png' />
+                    <h1>Hello</h1>
                 </Fade>
             </div>
         );
