@@ -11,6 +11,7 @@ export default function Test01() {
                     <img className='img03' src='./img03.png' />
                     <img className='img04' src='./img04.png' />
                     <img className='img05' src='./img05.png' />
+                    hello
                 </Fade>
             </div>
         );
