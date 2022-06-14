@@ -40,48 +40,61 @@
 .img01 {
   width: 800px;
   height: 600px;
-  padding: 10%;
+  margin-top: 100px;
+  margin-bottom: 300px;
 }
 
 .img02 {
-  padding: 10%;
   width: 800px;
   height: 600px;
+  margin-bottom: 300px;
 }
 
 .img03 {
-  padding: 10%;
   width: 800px;
   height: 600px;
+  margin-bottom: 300px;
 }
 
 .img04 {
-  padding: 10%s;
   width: 800px;
   height: 600px;
+  margin-bottom: 300px;
 }
 
-.test01 {
-  width: 800px;
-  height: 600px;
-}
 .gallery {
   background-color: black;
+  overflow: hidden;
 }
 
-.test{
-  animation-name: up;
-  animation-duration: 1s;
-  animation-timing-function: ease-in-out;
+.gallery>a:hover .img01 {
+  transform: scale(1.5);
+  transition: transform 1s;
+  filter: brightness(70%);
 }
 
-@keyframes up {
-  from {
-    opacity: 0;
-    transform: translateX(200px);
-  }
-  to{
-    opacity: 3;
-    transform: none;
-  }
+.gallery>a:hover .img02 {
+  transform: scale(1.5);
+  transition: transform 1s;
+  filter: brightness(70%);
 }
+
+.gallery>a:hover .img03 {
+  transform: scale(1.5);
+  transition: transform 1s;
+  filter: brightness(70%);
+}
+
+.gallery>a:hover .img04 {
+  transform: scale(1.5);
+  transition: transform 1s;
+  filter: brightness(70%);
+}
+
+.a {
+  width: 400px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+
