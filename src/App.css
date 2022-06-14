@@ -36,3 +36,52 @@
     transform: rotate(360deg);
   }
 }
+
+.img01 {
+  width: 800px;
+  height: 600px;
+  padding: 10%;
+}
+
+.img02 {
+  padding: 10%;
+  width: 800px;
+  height: 600px;
+}
+
+.img03 {
+  padding: 10%;
+  width: 800px;
+  height: 600px;
+}
+
+.img04 {
+  padding: 10%s;
+  width: 800px;
+  height: 600px;
+}
+
+.test01 {
+  width: 800px;
+  height: 600px;
+}
+.gallery {
+  background-color: black;
+}
+
+.test{
+  animation-name: up;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes up {
+  from {
+    opacity: 0;
+    transform: translateX(200px);
+  }
+  to{
+    opacity: 3;
+    transform: none;
+  }
+}
