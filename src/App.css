@@ -36,22 +36,3 @@
     transform: rotate(360deg);
   }
 }
-
-.bg {
-  width: 500px;
-  height: 500px;
-  overflow: hidden;
-}
-
-.bg:hover img {
-  transform: scale(1.5);
-  transition: transform 1s;
-  filter: brightness(70%);
-}
-
-.img01 {
-  margin-top: 50px;
-  margin-left: 50px;
-  width: 500px;
-  height: 500px;
-}

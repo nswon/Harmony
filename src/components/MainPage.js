@@ -5,10 +5,12 @@ import { Fade, Zoom } from 'react-reveal';
 export default function Test01() {
 
         return (
-            <div className='bg'>
-                <Fade left>
-                    <img className='img01' src='./img/img01.png' />
-                    <h1>Hello</h1>
+            <div className='gallery'>
+                <Fade>
+                    <img className='img01' src='./img01.png' />
+                    <img className='img03' src='./img03.png' />
+                    <img className='img04' src='./img04.png' />
+                    <img className='img05' src='./img05.png' />
                 </Fade>
             </div>
         );
