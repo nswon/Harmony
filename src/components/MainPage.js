@@ -6,6 +6,12 @@ export default function Test01() {
 
         return (
             <div className='gallery'>
+                <Fade>
+                    <img className='img01' src='./img01.png' />
+                    <img className='img03' src='./img03.png' />
+                    <img className='img04' src='./img04.png' />
+                    <img className='img05' src='./img05.png' />
+                </Fade>
                 <a href='#' >
                     <Fade left>
                             <img className='img01' src='./img04_N.png' />
@@ -26,6 +32,7 @@ export default function Test01() {
                         <img className='img04' src='./img04_N.png' />
                     </Zoom>                    
                     </a>
+
             </div>
         );
 }
