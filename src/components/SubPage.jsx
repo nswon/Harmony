@@ -1,6 +1,6 @@
 import React from "react";
 import "../App_L.css";
-import Video from "../main1_L.mov";
+import Video from "../main_L.mov";
 
 export default function SubPage() {
   return (
