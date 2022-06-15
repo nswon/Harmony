@@ -10,7 +10,7 @@ export default function SubPage() {
           <source src={Video} type="video/mp4"></source>
         </video>
         <div class="jb-text">
-          <p>Lorem Ipsum Dolor</p>
+          <p>Lorem Ipsum Door</p>
         </div>
       </div>
     </div>
