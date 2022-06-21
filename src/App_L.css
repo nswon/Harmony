@@ -1,26 +1,34 @@
 body {
-  padding: 0px;
-  margin: 0px;
-}
-.jb-box {
+  background-image: url(C:\Users\SW2146\Desktop\unison\Harmony\public\world.svg);
+  top: 0;
+
+  left: 0;
   width: 100%;
-  height: 500px;
-  overflow: hidden;
-  margin: 0px auto;
-  position: relative;
-}
-video {
-  width: 100%;
+  height: 100%;
   background-size: cover;
-}
-.jb-text {
+  object-fit: cover;
   position: absolute;
-  top: 50%;
-  width: 100%;
+  background-repeat: no-repeat;
 }
-.jb-text p {
-  margin-top: -24px;
-  text-align: center;
-  font-size: 48px;
-  color: #ffffff;
+
+.seoul {
+  border-radius: 20px;
+  margin: 20%;
+  background-color: black;
+  opacity: 0.8;
+  height: 175px;
+  width: 125px;
+}
+
+#seoul {
+  line-height: 40px;
+  font-weight: bold;
+  white-space: pre-wrap;
+  margin: none;
+  padding: none;
+  font-size: 50px;
+  color: white;
+}
+
+.seoul > div {
 }
