@@ -7,11 +7,15 @@
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.1.0",
+    "react-diagonal-container": "^0.2.2",
     "react-dom": "^18.1.0",
+    "react-line": "^1.0.2",
+    "react-native-svg": "^12.3.0",
     "react-player": "^2.10.1",
     "react-reveal": "^1.2.2",
     "react-scripts": "5.0.1",
     "react-scroll-motion": "^0.3.0",
+    "react-svg": "^15.0.4",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
