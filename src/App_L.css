@@ -1,26 +1,96 @@
-body {
-  padding: 0px;
-  margin: 0px;
+.map {
+  display: flex;
 }
-.jb-box {
+
+.App {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  height: 500px;
-  overflow: hidden;
-  margin: 0px auto;
-  position: relative;
-}
-video {
-  width: 100%;
+  height: 100%;
   background-size: cover;
 }
-.jb-text {
-  position: absolute;
-  top: 50%;
+
+.seoulLine {
+  flex: 1;
+  position: relative;
+  z-index: 1;
+  background-color: black;
+  width: 1px;
+  height: 100px;
+  transform: rotate(-60deg);
+}
+
+.back {
+  background-image: url(C:\Users\SW2146\Desktop\unison\Harmony\public\world.svg);
+  top: 0;
+  /* animation: large 1s ease-in-out; */
+  left: 0;
   width: 100%;
-}
-.jb-text p {
-  margin-top: -24px;
+  height: 100%;
+  background-size: cover;
   text-align: center;
-  font-size: 48px;
-  color: #ffffff;
+  justify-content: center;
+  object-fit: cover;
+  position: absolute;
+  background-repeat: no-repeat;
 }
+.seoul {
+  flex: 1;
+  margin-top: 50px;
+  margin-left: 75%;
+  position: relative;
+  background-size: cover;
+  background-color: black;
+  border-radius: 20px;
+  animation-delay: 10s;
+  z-index: 1;
+  height: 130px;
+  width: 125px;
+  animation-duration: 1s;
+  animation: 1s up ease-in-out;
+}
+
+.redDot {
+  flex: 1;
+  position: relative;
+  background-color: red;
+  height: 55px;
+  width: 5px;
+  z-index: 1;
+  margin-left: 91%;
+  border-radius: 50px;
+}
+
+.seoul_p {
+  line-height: 40px;
+  font-weight: bold;
+  white-space: pre-wrap;
+  margin: none;
+  padding: none;
+  font-size: 50px;
+  color: white;
+}
+
+@keyframes up {
+  0% {
+    opacity: 0;
+    transform: translate(50px, 50px);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* @keyframes large {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+    transform: none;
+  }
+} */
